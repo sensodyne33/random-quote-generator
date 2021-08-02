@@ -20,6 +20,7 @@
     /* add background picture */
     background-image: url("background.png");
     background-repeat:no-repeat;
+    /* scales background with screen size */
     background-size:cover;
     font-family: 'MonteCarlo', cursive;
     font-family: 'Noto Sans JP', sans-serif;
