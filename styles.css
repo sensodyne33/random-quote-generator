@@ -8,17 +8,18 @@
     /* responsible for stacking up divs  */
     flex-direction: column;
     /* make this element content area == of its parent */
-    width: 60%;
+    width: 50%;
     /* align text to the center */
     text-align: center;
     /* puts div at 50% height of the page */
-    margin: 30% 20%;
+    margin: 20% 20%;
     /* makes min height of the ENTIRE BOX div at least 200px in height */
     min-height: 300px;
     background-color: rgba(33, 33, 33, .3);
     align-items: center;
     /* add background picture */
     background-image: url("background.png");
+    background-repeat:no-repeat;
     font-family: 'MonteCarlo', cursive;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Style Script', cursive;
@@ -26,8 +27,8 @@
   }
 
   #quote-btn {
-    margin-top: 30px;
-    color: #fff !important;
+  margin-top: 30px;
+  color: #fff !important;
 	text-transform: uppercase;
 	text-decoration: none;
 	background: #F87E1F;
