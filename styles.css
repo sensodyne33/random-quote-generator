@@ -20,6 +20,7 @@
     /* add background picture */
     background-image: url("background.png");
     background-repeat:no-repeat;
+    background-size:cover;
     font-family: 'MonteCarlo', cursive;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Style Script', cursive;
